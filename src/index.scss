@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: "Inter", system-ui;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e7f6ff;
+}
+
+* {
+  font-family: "Inter";
+}
+
+.wrapper {
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 20px;
+  max-width: 1080px;
+  margin: 50px auto;
+}
+
+.content {
+  h1 {
+    margin: 0;
+  }
+}
+
+.search-block {
+  border: 1px solid #f3f3f3;
+  border-radius: 10px;
+  padding: 0 15px;
+  position: relative;
+
+  .clear {
+    position: absolute;
+    right: 15px;
+    top: 13px;
+    height: 22px;
+    width: 22px;
+  }
+
+  input {
+    border: 0;
+    padding: 13px;
+    font-size: 16px;
+    width: 200px;
+  }
+  .greenButton {
+    width: 100%;
+    height: 55px;
+    background: #9dd558;
+    border-radius: 18px;
+    color: #ffffff;
+    border: 0;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out;
+
+    &:hover {
+       background-color: lighten(#9dd558, 5%);
+    }
+
+    &:active {
+       background-color: darken(#9dd558, 10%);
+    }
+
+ }
+}
+
+.greenbutton__back-home {
+  width:450px;
+  height: 55px;
+  background: #9dd558;
+  border-radius: 18px;
+  color: #ffffff;
+  border: 0;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.1s ease-in-out;
+
+  &:hover {
+     background-color: lighten(#9dd558, 5%);
+  }
+
+  &:active {
+     background-color: darken(#9dd558, 10%);
+  }
+
+  img {
+     transform: rotate(180deg);
+  }
+
+  
+}
+
